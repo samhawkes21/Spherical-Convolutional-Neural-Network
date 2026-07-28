@@ -45,14 +45,6 @@ flat 8x8 digit
 └── training.py   # rotation augmentation + the training loop
 ```
 
-## Requirements
-
-- Python 3.9+
-- PyTorch (with CUDA support — this project assumes a GPU is available)
-- NumPy
-- SciPy (recent enough to provide `scipy.special.sph_harm_y`)
-- scikit-learn
-
 ## Usage
 
 ```bash
